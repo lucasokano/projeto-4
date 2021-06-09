@@ -7,11 +7,11 @@ import { BrowserRouter as Router } from  'react-router-dom'
 const App = props => {
   return(
     <div className="App">
-      <Router className="grid">
-        
-        <Menu/>
-        <Content/>
-
+      <Router >
+        <div className="grid">
+          <Menu/>
+          <Content/>
+        </div>
       </Router>
     </div>
   )
